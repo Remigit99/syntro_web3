@@ -1,13 +1,17 @@
 
 import './App.css'
+import { Footer, Navbar, Services, Transactions, Welcome } from './component'
 
 const App = () => {
 
 
   return (
     <>
-    <h1>Welcome to Syntro</h1>
-     
+    <Navbar/>
+    <Welcome/>
+    <Services/>
+    <Transactions/>
+    <Footer/>
     </>
   )
 }
